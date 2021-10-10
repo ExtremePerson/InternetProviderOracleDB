@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="internet_provider" id="75060D23-5639-CF1A-E13C-BA4A873552EF" version="3.5">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-10 15:02:06 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>75060D23-5639-CF1A-E13C-BA4A873552EF</designId>
+</OSDM_Design>
