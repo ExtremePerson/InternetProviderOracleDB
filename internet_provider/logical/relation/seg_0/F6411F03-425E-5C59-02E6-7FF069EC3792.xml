@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk account client" directorySegmentName="seg_0" id="F6411F03-425E-5C59-02E6-7FF069EC3792">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:26 UTC</createdTime>
+<generatorID>F1DE3093-9B36-6BC2-BA67-086BC0E827C9</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<sourcePk>9361C9C3-D3E0-9B3C-10B9-AF7247470CDC</sourcePk>
+<dominantRole>EA270200-694B-1F17-7794-0C9E075E40E3</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EA270200-694B-1F17-7794-0C9E075E40E3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0949D6BB-7CB8-3048-92C2-F4E8622571CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

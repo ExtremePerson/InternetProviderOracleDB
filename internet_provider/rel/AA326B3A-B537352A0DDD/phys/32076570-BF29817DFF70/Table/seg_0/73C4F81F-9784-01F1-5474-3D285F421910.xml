@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="kcnt_tariff" directorySegmentName="seg_0" id="73C4F81F-9784-01F1-5474-3D285F421910">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="active_districts" id="4A79DBD4-994C-6D8E-49C9-2854CD76F722">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="4FEE1CEC-5A9A-2BE4-0FE6-98B19FBE47FE">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="price" id="871E553E-256D-CB5A-1F64-5EDBA9EED7EE">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="description" id="A07C63F9-484F-FFEF-7F73-66CD3CAFA77E">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="time_type" id="D1988510-D246-C6F2-1AB6-F8FEF3645E51">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tariff_id" id="F1653ABE-AEE0-8F57-BA3A-40B70BA06475">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_tariff" id="E6DAA9F4-9A09-F685-0339-28DB9528A4B0">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

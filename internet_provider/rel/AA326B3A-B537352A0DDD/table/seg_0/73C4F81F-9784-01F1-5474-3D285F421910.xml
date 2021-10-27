@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73C4F81F-9784-01F1-5474-3D285F421910" name="kcnt_tariff">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>24480F62-EE0B-54E1-5190-F07C10FC92A0</importedID>
+<ordsAlias>tariff</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tariff_id" id="F1653ABE-AEE0-8F57-BA3A-40B70BA06475">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер тарифа]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>57E862BC-B4A3-5516-C3E9-76EAF41BBB05</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="4FEE1CEC-5A9A-2BE4-0FE6-98B19FBE47FE">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Название тарифа]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>8E870322-EE95-FD1B-58B7-6D8C50E582C9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4AA39BDF-6A51-FCBD-D6FE-BF5961FCDDB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="A07C63F9-484F-FFEF-7F73-66CD3CAFA77E">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Описание тарифа]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>744B1B7A-F0E5-34FE-818E-F105AB66B4B3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10E0EE3F-552F-7995-177F-3C6824D3673F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="871E553E-256D-CB5A-1F64-5EDBA9EED7EE">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Цена тарифа]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>79BB2AE9-E7EC-E734-7164-B0E6CC2D436A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="time_type" id="D1988510-D246-C6F2-1AB6-F8FEF3645E51">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Время действия тарифа (месяц, 6 месяцев, год)]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>23E20274-2691-5F92-5047-2B1BAC89A80C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36C87C63-4525-FDD7-6CC0-90B452EC091D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="active_districts" id="4A79DBD4-994C-6D8E-49C9-2854CD76F722">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Районы в которых поддерживается обслуживание тарифа]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>C32A8116-1FA6-5EC8-EF95-D8F8EE7A25AB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10E0EE3F-552F-7995-177F-3C6824D3673F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6DAA9F4-9A09-F685-0339-28DB9528A4B0" name="pk_tariff">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>875B20CE-6ADA-05F7-EC0A-0AC4E73E71F5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1653ABE-AEE0-8F57-BA3A-40B70BA06475"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3CF8EB36-2167-D369-12D1-C6289FEEA001" containerWithKeyObject="2F2452C7-A9BA-1735-2543-E130377E5366" localFKIndex="2E3FB3DE-203A-4D16-A426-299EDC68ADDB" name="fk_contract_discount">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>7748E613-7C62-E5C6-013A-37C171CEF5DD</importedID>
+<referredTableLongName>kcnt_discount</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>541F98E9-7C22-1647-F1CB-506923E1F491</referredTableID>
+<keyObject>9B339F4E-4B40-2AF7-DFA8-71D34F4FD4EA</keyObject>
+<referredKeyID>9B339F4E-4B40-2AF7-DFA8-71D34F4FD4EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>discount_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

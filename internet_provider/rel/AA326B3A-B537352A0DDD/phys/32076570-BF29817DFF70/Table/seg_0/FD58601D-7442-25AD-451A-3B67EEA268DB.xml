@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="kclt_district" directorySegmentName="seg_0" id="FD58601D-7442-25AD-451A-3B67EEA268DB">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="country_id" id="54C05157-F2AE-34E2-F377-56BE8E74FD44">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="A64A0053-3937-B079-2201-7207F3F41D2B">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="district_id" id="CAEAC854-E015-E504-F0BC-91E5905E4911">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="description" id="E03383EB-1A2F-ED0E-71C4-24F0E9F6C198">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="i_district_country_id" id="521A28B4-E071-D8C7-B120-5127F77A0E59">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-27 11:17:38 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_district_country" id="DD425CF7-22E4-F692-271A-9C8FE98D22FB">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_district" id="C84A47AE-3A2C-CEBF-548E-CE01F0B28963">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

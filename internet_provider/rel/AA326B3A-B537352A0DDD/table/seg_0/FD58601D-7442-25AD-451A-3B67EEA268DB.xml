@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD58601D-7442-25AD-451A-3B67EEA268DB" name="kclt_district">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>C9FC6CD6-21E7-BCF5-6524-60CD223E1502</importedID>
+<ordsAlias>district</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="district_id" id="CAEAC854-E015-E504-F0BC-91E5905E4911">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер района]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>23DB64AB-C9D5-F262-7F83-B7639937DDC3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="A64A0053-3937-B079-2201-7207F3F41D2B">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Название района]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>6BD65C84-4629-323E-C20F-4047E2F81DCB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36C87C63-4525-FDD7-6CC0-90B452EC091D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="E03383EB-1A2F-ED0E-71C4-24F0E9F6C198">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Описание района]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>DC9DCBBB-2FFB-C321-9DC4-82A64B4D86AA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10E0EE3F-552F-7995-177F-3C6824D3673F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_id" id="54C05157-F2AE-34E2-F377-56BE8E74FD44">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер страны]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>63C620BE-7211-02DF-9237-CB93531AB83E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>ABC3E506-375A-A25C-7AF8-A1B86DE5E6A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFA38328-43CF-7D2A-0900-E6C3014E030D" referredColumn="8299597F-990F-2B51-0C3C-E0BB99E0278B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C84A47AE-3A2C-CEBF-548E-CE01F0B28963" name="pk_district">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>1F241270-5C25-3628-5FA3-D07A7A53B423</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAEAC854-E015-E504-F0BC-91E5905E4911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="521A28B4-E071-D8C7-B120-5127F77A0E59" name="i_district_country_id">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-27 11:17:38 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54C05157-F2AE-34E2-F377-56BE8E74FD44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD425CF7-22E4-F692-271A-9C8FE98D22FB" name="fk_district_country">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54C05157-F2AE-34E2-F377-56BE8E74FD44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

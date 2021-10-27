@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47E41784-0CE2-4589-BED1-675107D85F08" name="kclt_country">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>E6BCE13A-582D-3BDB-CB66-81D74BB817AD</importedID>
+<ordsAlias>country</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="country_id" id="8299597F-990F-2B51-0C3C-E0BB99E0278B">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер страны]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>979F5C7F-BF9B-F007-8E24-254305E46CA1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>ABC3E506-375A-A25C-7AF8-A1B86DE5E6A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="7FB9E0C1-CD8A-567C-9686-0561F9B1E751">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Название]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>D4144DE3-6F0F-0A3F-366D-B5D5E2354987</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4AA39BDF-6A51-FCBD-D6FE-BF5961FCDDB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="47561D20-50AC-29FD-F4D2-D3F0D88157FE">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Описание]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>810D80BE-A938-CD71-EC5A-C99F9FA1D976</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10E0EE3F-552F-7995-177F-3C6824D3673F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2DD71E0-C769-F865-967A-C9CC342F0AC3" name="pk_country">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>4186A3F7-88EE-40E8-9E37-C84EAFBBF5E2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8299597F-990F-2B51-0C3C-E0BB99E0278B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk district country" directorySegmentName="seg_0" id="F461BA5A-D0B9-5C7E-1FEE-7331C2318D1C">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:26 UTC</createdTime>
+<generatorID>BFA38328-43CF-7D2A-0900-E6C3014E030D</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<sourcePk>9DF2DDDB-40DD-4DFD-9C8D-C1F213B85298</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>36991EFC-3BB6-F69D-0FAB-BCBAFD94CA7C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB05A6DD-C81D-41D0-5D27-734386001A0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

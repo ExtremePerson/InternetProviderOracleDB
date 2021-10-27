@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="541F98E9-7C22-1647-F1CB-506923E1F491" name="kcnt_discount">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>57B2A57B-680D-6282-45AD-DDE252454202</importedID>
+<ordsAlias>discount</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="discount_id" id="F749A39F-6E0C-49B9-2F2A-9E897852CCAA">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер скидки]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>75AC1726-DA42-BC1B-FD5B-ADC4D5DE5931</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="7E3F3976-A2A4-FB6B-DCE9-8D7E03590AAC">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Название скидки]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>845FC74F-0776-7D05-75CA-6CAE3D820BB6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4AA39BDF-6A51-FCBD-D6FE-BF5961FCDDB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="F5EC0DF0-79D3-D437-AB1C-DC26B141C8BA">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Описание скидки]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>E23D4630-451A-B177-2D63-19A11185E827</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10E0EE3F-552F-7995-177F-3C6824D3673F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="discount_percent" id="67A7E557-BFED-EA44-F313-7DBF920EE285">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Размер скидки(в процентах)]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>F75CBE2B-1331-8E8C-EDA8-F66FDD95E7D0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B339F4E-4B40-2AF7-DFA8-71D34F4FD4EA" name="pk_discount">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>4A024AD6-358B-CF1A-5AC5-88101FCD111E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F749A39F-6E0C-49B9-2F2A-9E897852CCAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

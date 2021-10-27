@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk blacklist client" directorySegmentName="seg_0" id="979749B4-6A4C-5F35-A3A8-7942BD32A43A">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:26 UTC</createdTime>
+<generatorID>66EF1052-9390-6ACE-402A-18509D2BFFC0</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<sourcePk>9361C9C3-D3E0-9B3C-10B9-AF7247470CDC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EA270200-694B-1F17-7794-0C9E075E40E3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>90E00010-F51C-6AD3-C16C-D1EBCE226E3E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

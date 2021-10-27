@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D463D6E4-513F-C6A4-C545-6DB6A20CDF28" containerWithKeyObject="ECE2E402-B738-64A8-A14C-66D9E33854F3" localFKIndex="5DC8FEE5-3DFF-B50D-6DF2-189AEC08465F" name="fk_client_district">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>22B0998B-7685-7D7B-7EF7-F6E9579B4937</importedID>
+<referredTableLongName>kclt_district</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD58601D-7442-25AD-451A-3B67EEA268DB</referredTableID>
+<keyObject>C84A47AE-3A2C-CEBF-548E-CE01F0B28963</keyObject>
+<referredKeyID>C84A47AE-3A2C-CEBF-548E-CE01F0B28963</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>district_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8751BCFB-0D2F-3BAB-D9FC-442169B67540" name="kcnt discount">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:26 UTC</createdTime>
+<generatorID>541F98E9-7C22-1647-F1CB-506923E1F491</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="discount id" id="C16C869C-FCA4-52FD-33DD-8AC3F6930A37">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер скидки]]></commentInRDBMS>
+<generatorID>F749A39F-6E0C-49B9-2F2A-9E897852CCAA</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="9D6446CA-2CBF-A68F-AB30-948BFA4F1B8A">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Название скидки]]></commentInRDBMS>
+<generatorID>7E3F3976-A2A4-FB6B-DCE9-8D7E03590AAC</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4AA39BDF-6A51-FCBD-D6FE-BF5961FCDDB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="5632F7DE-5317-5FCE-EFF9-D9C68CB92382">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Описание скидки]]></commentInRDBMS>
+<generatorID>F5EC0DF0-79D3-D437-AB1C-DC26B141C8BA</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10E0EE3F-552F-7995-177F-3C6824D3673F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="discount percent" id="7E67A5C3-5B16-755D-30CE-90930C405160">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Размер скидки(в процентах)]]></commentInRDBMS>
+<generatorID>67A7E557-BFED-EA44-F313-7DBF920EE285</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57E85055-8F45-DC32-F8D2-13AB2304452A" name="pk_discount">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:26 UTC</createdTime>
+<generatorID>9B339F4E-4B40-2AF7-DFA8-71D34F4FD4EA</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C16C869C-FCA4-52FD-33DD-8AC3F6930A37</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

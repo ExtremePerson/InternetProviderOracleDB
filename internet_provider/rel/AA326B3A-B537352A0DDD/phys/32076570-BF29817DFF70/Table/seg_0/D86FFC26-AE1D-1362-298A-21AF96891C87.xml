@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="kclt_document" directorySegmentName="seg_0" id="D86FFC26-AE1D-1362-298A-21AF96891C87">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="document_type" id="41430AD3-0FDC-3282-3746-553FF8989AE6">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="country_id" id="44DA61EC-DD3F-411D-CC7A-3F18C804C20B">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="document_id" id="4BF27C4F-4C12-E927-DD1F-497330E79596">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="client_id" id="5746FA99-BB0A-BD03-74D8-6F2FC408702B">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="document_data" id="81816C52-5EDB-3092-3033-AAACCD6D5F50">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="i_document_client_id" id="75C51D1D-B116-99EC-95E5-F4AA70FAB725">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-27 11:11:04 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="i_document_country_id" id="B373B6FE-B699-821B-B0F8-74F9C76BD160">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-27 11:11:04 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_document_country" id="6BC9CD3C-484E-E5E4-32ED-8927BDDACC8E">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_document_client" id="E4BEB3E6-F36F-EAE4-DAED-DA10CE9DAD66">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_document" id="55AD78E1-A679-34D7-02BF-3A3C1B774023">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk contract tariff" directorySegmentName="seg_0" id="04EC7B98-4527-15B2-CB63-4E24D79064E2">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:26 UTC</createdTime>
+<generatorID>635A6F7F-864F-B1C0-7577-B06DB44CE90D</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<sourcePk>32A39418-EB0C-47A1-D370-DCF1AB65B7D0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2FCADDDF-090E-7992-094F-078A2662CF61</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D08B8781-7BC9-DDA9-B8EE-B01FD64D89D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

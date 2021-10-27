@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F2452C7-A9BA-1735-2543-E130377E5366" name="kcnt_contract">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>375D4733-9CEF-F351-EE73-C239A6ABFB20</importedID>
+<ordsAlias>contract</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contract_id" id="6A74BAA9-2D5C-8DA1-D410-F6C5CDEB10C4">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер контракта]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>EEF995AD-8BF6-B6DB-9C42-507CB00F7986</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_start" id="AB04A8D4-7692-A854-E6CA-09222250AE34">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Начало срока действия контракта]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>E9B73BFA-62CD-0F8F-3AAE-391B2412AE42</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<domain>D219CEF1-B0B2-EC31-6CBD-80A398D783B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_stop" id="70DB5B80-9A2C-7DAC-0218-14379AD0CF49">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Конец срока действия контракта]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>21EF44AF-8E5B-EE6C-9DCD-5A720A9ED433</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<domain>D219CEF1-B0B2-EC31-6CBD-80A398D783B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="A9F41556-FF9F-B490-7EB7-E715938FBD0A">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Статус (1-активен, 0-неактивен)]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>35E541E5-4C47-210D-B574-D4142C3B76FA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>66CCEDE8-DAE4-8553-FAEC-9AA75E0DA7B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_id" id="601718A7-414E-DE01-88E7-F5DC45E8ECDD">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер клиента]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>6B50E3E3-17EF-DE5A-0B91-5B6B13C93157</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B0B86E0-FF66-E5C2-49BD-6CF538B91B68" referredColumn="6092BD03-29F7-9AC8-166B-652116786FA0"/>
+</associations>
+</Column>
+<Column name="tariff_id" id="2E33469D-A49B-DEBD-E828-93B9C776156E">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер тарифа]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>C68AC4B7-E7DA-28B3-7CB9-F51517BDEB14</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="635A6F7F-864F-B1C0-7577-B06DB44CE90D" referredColumn="F1653ABE-AEE0-8F57-BA3A-40B70BA06475"/>
+</associations>
+</Column>
+<Column name="service_id" id="385549B0-E972-EFCB-DD87-5D46B079C9B2">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер услуги]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>6748C3CF-7374-40BC-8B95-4B7CC76F7DDE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="553CEA30-6B25-11B0-AD83-3E39EF470F91" referredColumn="32AA2783-9256-5064-518B-710FC41708C1"/>
+</associations>
+</Column>
+<Column name="discount_id" id="DD734B09-4E20-135A-581B-749EA4502404">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер скидки]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>988F07E2-7F90-9DC0-0DD2-765738D25817</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CF8EB36-2167-D369-12D1-C6289FEEA001" referredColumn="F749A39F-6E0C-49B9-2F2A-9E897852CCAA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDAEBBCB-E3CC-B1BA-E998-E8974D021CF2" name="pk_contract">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>4D855C1C-E362-691D-F44B-CB3C287AE22C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A74BAA9-2D5C-8DA1-D410-F6C5CDEB10C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F51D3F08-030B-0720-3072-92C708AAC435" name="i_contract_client_id">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-27 11:26:02 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="601718A7-414E-DE01-88E7-F5DC45E8ECDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7083DDEF-1D41-C8B8-FB9F-461AC3317A3F" name="i_contract_discount_id">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-27 11:26:02 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD734B09-4E20-135A-581B-749EA4502404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24A266C4-9F7D-561E-A391-EACE4016EEE2" name="i_contract_service_id">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-27 11:26:02 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="385549B0-E972-EFCB-DD87-5D46B079C9B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E2388CC-471F-8551-853F-9DF97D37EF47" name="i_contract_tariff_id">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-27 11:26:02 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E33469D-A49B-DEBD-E828-93B9C776156E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="485FDDEF-31A5-3B12-60CE-CE5E3DC7C117" name="fk_contract_client">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="601718A7-414E-DE01-88E7-F5DC45E8ECDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E3FB3DE-203A-4D16-A426-299EDC68ADDB" name="fk_contract_discount">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD734B09-4E20-135A-581B-749EA4502404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DF22929-5C3D-25A9-3822-75AB3413083A" name="fk_contract_service">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="385549B0-E972-EFCB-DD87-5D46B079C9B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F39DF4C1-86E7-13D3-9C75-43C3ED58BBE4" name="fk_contract_tariff">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E33469D-A49B-DEBD-E828-93B9C776156E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

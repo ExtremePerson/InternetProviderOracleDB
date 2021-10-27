@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="635A6F7F-864F-B1C0-7577-B06DB44CE90D" containerWithKeyObject="2F2452C7-A9BA-1735-2543-E130377E5366" localFKIndex="F39DF4C1-86E7-13D3-9C75-43C3ED58BBE4" name="fk_contract_tariff">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>051D3E59-FA67-EC8C-FF1D-5A719988176C</importedID>
+<referredTableLongName>kcnt_tariff</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73C4F81F-9784-01F1-5474-3D285F421910</referredTableID>
+<keyObject>E6DAA9F4-9A09-F685-0339-28DB9528A4B0</keyObject>
+<referredKeyID>E6DAA9F4-9A09-F685-0339-28DB9528A4B0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tariff_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

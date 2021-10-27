@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D86FFC26-AE1D-1362-298A-21AF96891C87" name="kclt_document">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>AF16FF27-C978-1318-6E16-CF19129433A3</importedID>
+<ordsAlias>document</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="document_id" id="4BF27C4F-4C12-E927-DD1F-497330E79596">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификационный номер документа]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>18B7F647-4CE9-4BFE-7166-73A35C2E387C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="document_type" id="41430AD3-0FDC-3282-3746-553FF8989AE6">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Тип документа]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>367EF29F-BD63-A218-8F03-40D9955549BB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36C87C63-4525-FDD7-6CC0-90B452EC091D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_id" id="44DA61EC-DD3F-411D-CC7A-3F18C804C20B">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид. номер страны]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>7BA3758B-505E-A666-DFE6-58D0D71E1F97</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>ABC3E506-375A-A25C-7AF8-A1B86DE5E6A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3104ADC1-AA09-A7B3-A8A5-859E869DC73E" referredColumn="8299597F-990F-2B51-0C3C-E0BB99E0278B"/>
+</associations>
+</Column>
+<Column name="client_id" id="5746FA99-BB0A-BD03-74D8-6F2FC408702B">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер клиента]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>3A4ACD7A-E03E-0E36-805A-ED6C27D361EC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="760C53A5-F916-2B95-1D67-E57DEE9696D4" referredColumn="6092BD03-29F7-9AC8-166B-652116786FA0"/>
+</associations>
+</Column>
+<Column name="document_data" id="81816C52-5EDB-3092-3033-AAACCD6D5F50">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Информация о документе (номер, серия и тд)]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>0621B060-7E09-DCBB-4FB6-54379255157B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4AA39BDF-6A51-FCBD-D6FE-BF5961FCDDB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55AD78E1-A679-34D7-02BF-3A3C1B774023" name="pk_document">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>016515BC-0023-C1CB-5779-68E2DD8C5742</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BF27C4F-4C12-E927-DD1F-497330E79596"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B373B6FE-B699-821B-B0F8-74F9C76BD160" name="i_document_country_id">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-27 11:11:04 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44DA61EC-DD3F-411D-CC7A-3F18C804C20B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75C51D1D-B116-99EC-95E5-F4AA70FAB725" name="i_document_client_id">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-27 11:11:04 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5746FA99-BB0A-BD03-74D8-6F2FC408702B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4BEB3E6-F36F-EAE4-DAED-DA10CE9DAD66" name="fk_document_client">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5746FA99-BB0A-BD03-74D8-6F2FC408702B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BC9CD3C-484E-E5E4-32ED-8927BDDACC8E" name="fk_document_country">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44DA61EC-DD3F-411D-CC7A-3F18C804C20B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

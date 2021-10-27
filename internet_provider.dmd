@@ -1,8 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="internet_provider" id="75060D23-5639-CF1A-E13C-BA4A873552EF" version="3.5">
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="internet_provider" id="EDF7E9E8-5FE5-637C-4652-582CAD417A79" version="3.5">
 <createdBy>Asus</createdBy>
-<createdTime>2021-10-10 15:02:06 UTC</createdTime>
+<createdTime>2021-10-22 14:23:38 UTC</createdTime>
 <ownerDesignName>internet_provider</ownerDesignName>
 <capitalNames>false</capitalNames>
-<designId>75060D23-5639-CF1A-E13C-BA4A873552EF</designId>
+<designId>EDF7E9E8-5FE5-637C-4652-582CAD417A79</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="586E43EE-0CE0-C40B-D7EC-AAC5656592F5">
+<designStoragePath>C:\internet_provider_SQL_code</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

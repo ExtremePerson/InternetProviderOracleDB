@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90E00010-F51C-6AD3-C16C-D1EBCE226E3E" name="knet blacklist">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<generatorID>95C38EF6-10D8-B956-47DB-232995A73654</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="blacklist id" id="8CE69917-80E9-6FD2-46CC-5FB0D17F3CC0">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификационный номер блокировки]]></commentInRDBMS>
+<generatorID>702CAEC4-9187-4A63-91CD-3B09D06A4F92</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt start" id="36434A2A-6BE7-E62E-08F7-AFA90711EAF8">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Начало блокировки]]></commentInRDBMS>
+<generatorID>A32F96D7-4173-E6A0-7F1F-E2AD1746D627</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<domain>D219CEF1-B0B2-EC31-6CBD-80A398D783B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt stop" id="5664FF63-3D4E-A771-2C12-14FD3CE72675">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Конец блокировки]]></commentInRDBMS>
+<generatorID>040AC8D2-764A-C776-846E-0D10001B42CA</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<domain>D219CEF1-B0B2-EC31-6CBD-80A398D783B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reason" id="1016DFFB-CD7E-EC31-BE0B-C8FA6A4D920F">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Причина блокировки]]></commentInRDBMS>
+<generatorID>8BB9B054-EC76-BEF9-9C0A-620AC6985CC8</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10E0EE3F-552F-7995-177F-3C6824D3673F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="client id" id="564FAE8D-BE8A-5253-865C-AB14CCF4AAE5">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификационный номер клиента]]></commentInRDBMS>
+<generatorID>979749B4-6A4C-5F35-A3A8-7942BD32A43A</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<referedAttribute>B0ABC16C-54B9-CBFD-426B-A6AD68E1C819</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22E7E145-96CF-B55D-28C0-DB31000434D5" name="pk_blacklist">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<generatorID>74860191-4E8F-D4F9-B918-3D61D63C4D82</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CE69917-80E9-6FD2-46CC-5FB0D17F3CC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6B3FC031-C94D-0196-86AA-C44D947AFBF2" mainViewID="8D97647B-3AFD-435D-AFBE-D584AB0E73FB">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:23:39 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

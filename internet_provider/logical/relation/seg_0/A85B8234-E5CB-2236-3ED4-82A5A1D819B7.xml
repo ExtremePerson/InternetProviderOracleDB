@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk contract discount" directorySegmentName="seg_0" id="A85B8234-E5CB-2236-3ED4-82A5A1D819B7">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:26 UTC</createdTime>
+<generatorID>3CF8EB36-2167-D369-12D1-C6289FEEA001</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<sourcePk>57E85055-8F45-DC32-F8D2-13AB2304452A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8751BCFB-0D2F-3BAB-D9FC-442169B67540</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D08B8781-7BC9-DDA9-B8EE-B01FD64D89D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

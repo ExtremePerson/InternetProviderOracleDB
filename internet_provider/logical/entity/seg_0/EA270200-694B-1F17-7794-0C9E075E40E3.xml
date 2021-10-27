@@ -1,0 +1,319 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA270200-694B-1F17-7794-0C9E075E40E3" name="kclt client">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<generatorID>ECE2E402-B738-64A8-A14C-66D9E33854F3</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="client id" id="B0ABC16C-54B9-CBFD-426B-A6AD68E1C819">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер клиента]]></commentInRDBMS>
+<generatorID>6092BD03-29F7-9AC8-166B-652116786FA0</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account id" id="D747A69A-CF2A-ED70-307C-E74326FC09BD">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер счета]]></commentInRDBMS>
+<generatorID>C21D458A-28E3-7C8A-1240-DF5DC89F9367</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt start" id="292B0185-2185-3C97-D9BE-F7D44A50B932">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Начало предоставления услуг клиенту]]></commentInRDBMS>
+<generatorID>EFE278D9-0D3B-110A-0A14-7ECC47ACB03D</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<domain>D219CEF1-B0B2-EC31-6CBD-80A398D783B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt stop" id="246FF41F-4822-4787-72CC-EE79D80AEDDA">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Окончание предоставления услуг клиенту]]></commentInRDBMS>
+<generatorID>C1BBD404-F598-8769-7195-E49CFBC19F77</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<domain>D219CEF1-B0B2-EC31-6CBD-80A398D783B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="D92C1C9D-38D5-3E60-81F6-37647695B3C0">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Статус (1- активен, 0 - неактивен)]]></commentInRDBMS>
+<generatorID>86857213-5715-3DCD-6DA9-0633C5E97076</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BAC30DFE-FF73-9169-22A4-84F5CDEEE333</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="80191BC7-28C6-8796-F3CB-5041BC3D639B">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Имя клиента]]></commentInRDBMS>
+<generatorID>8B3F0327-5716-034B-4FD0-E44C1E61824D</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36C87C63-4525-FDD7-6CC0-90B452EC091D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lastname" id="1182B058-F57E-6B59-D346-22A7E354C92D">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Фамилия клиента]]></commentInRDBMS>
+<generatorID>DF238B49-0F17-A77F-0897-7CF26339DA0A</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36C87C63-4525-FDD7-6CC0-90B452EC091D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patronymic" id="793AB24C-A86F-A9DE-E747-6747482C18C7">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Отчество клиента]]></commentInRDBMS>
+<generatorID>21E21CE4-48EA-D6F4-0672-7FEF41C14B2C</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36C87C63-4525-FDD7-6CC0-90B452EC091D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sex" id="67E3FFD0-FFB7-BE20-BE1A-5E896893B25E">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Пол клиента (m-мужской, f-женский)]]></commentInRDBMS>
+<generatorID>6815FF49-10E9-9236-65B4-17E6D7A74FE1</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BAC30DFE-FF73-9169-22A4-84F5CDEEE333</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="276A8C22-C1B1-2208-6CE5-6DB01FCED8C3">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Телнфон клиента]]></commentInRDBMS>
+<generatorID>232955DF-86FD-7423-A055-FB09F3CD6DA6</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36C87C63-4525-FDD7-6CC0-90B452EC091D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="0E5FA307-7E2A-7FAC-6C6A-EB82978C8184">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[электронная почта клиента]]></commentInRDBMS>
+<generatorID>F701A388-7D3E-40C0-32FA-FD439738CA4E</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36C87C63-4525-FDD7-6CC0-90B452EC091D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birthday" id="A36177E0-59A5-1B88-DE47-AFA48BA96209">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Дата рождения клиента]]></commentInRDBMS>
+<generatorID>82FA19AD-F407-0A74-2D42-B775B3918875</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>876384DF-2351-7680-0F39-E2A2167AE85E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="6AA14B73-FA4B-C880-4045-BE1BA3416DEE">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Описание(опционально)]]></commentInRDBMS>
+<generatorID>BB66DE7B-F177-D767-163D-49B1A36194C3</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10E0EE3F-552F-7995-177F-3C6824D3673F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="citizenship" id="54617F5B-2FDE-43C0-2B66-8DB713416E20">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Гражданство]]></commentInRDBMS>
+<generatorID>C1E580F2-8AA1-A6CF-ACE8-F4EAD95AC9D1</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D1EBDD2-597A-8EE8-F93B-932D4D0D4E3F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="1818BB67-C512-9A50-5D86-F76913494DBD">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Адрес проживания]]></commentInRDBMS>
+<generatorID>714B5AAF-A1E9-1259-A016-EF0AEFDE560A</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4AA39BDF-6A51-FCBD-D6FE-BF5961FCDDB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is blacklist" id="FE3136A5-DA55-D060-80CF-A1C3D448E89A">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Заблокирован ли пользователь в данный момент (1 - заблокирован, 0 - не заблокирован)]]></commentInRDBMS>
+<generatorID>91C79D73-3DAD-A6C7-0D88-F1A2E24D261D</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>66CCEDE8-DAE4-8553-FAEC-9AA75E0DA7B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country id" id="F188BD8C-60E6-8C68-098A-442CCCEA40CA">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер страны]]></commentInRDBMS>
+<generatorID>F165A56C-C0CD-3F1B-57BA-7EA243C121B3</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<referedAttribute>899BFE0E-AC5E-7D19-93F6-1AB217FE7F4C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>ABC3E506-375A-A25C-7AF8-A1B86DE5E6A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="document id" id="C09AAE4D-EC6A-49CE-9684-7E436162A165">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер документа ]]></commentInRDBMS>
+<generatorID>DBC0D4F6-E843-0B0F-1667-AAC71CD26B79</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="district id" id="F3D5792B-8701-79A4-CCA5-138C7D188C1D">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ид.номер района проживания]]></commentInRDBMS>
+<generatorID>73216558-AA2B-0273-B300-21EAD0FF1570</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<referedAttribute>ED096CD6-1B88-60AE-31BE-94D5BF4495FA</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9361C9C3-D3E0-9B3C-10B9-AF7247470CDC" name="pk_client">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<generatorID>067FC317-398D-E851-154C-DD1B6EAE268A</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0ABC16C-54B9-CBFD-426B-A6AD68E1C819</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

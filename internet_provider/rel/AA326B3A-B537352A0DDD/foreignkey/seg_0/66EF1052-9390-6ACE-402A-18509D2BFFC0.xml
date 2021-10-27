@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="66EF1052-9390-6ACE-402A-18509D2BFFC0" containerWithKeyObject="95C38EF6-10D8-B956-47DB-232995A73654" localFKIndex="E87182B8-247F-41EF-F80B-CB947D7C8E3B" name="fk_blacklist_client">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>B201AF01-8197-7BB2-282C-B4A4165AC693</importedID>
+<referredTableLongName>kclt_client</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECE2E402-B738-64A8-A14C-66D9E33854F3</referredTableID>
+<keyObject>067FC317-398D-E851-154C-DD1B6EAE268A</keyObject>
+<referredKeyID>067FC317-398D-E851-154C-DD1B6EAE268A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>client_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

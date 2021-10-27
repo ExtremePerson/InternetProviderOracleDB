@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9994A9E8-366E-4026-6B85-992D40575656" name="kbnk_account">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>806CCE50-BE14-5CE5-8BA6-65DEADCE145A</importedID>
+<ordsAlias>account</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="account_id" id="2EC7068A-55C3-9E42-6514-22C540709580">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификационный номер аккаунта]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>0142234A-4784-EC94-A058-14FB536BE45B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1DE3093-9B36-6BC2-BA67-086BC0E827C9" referredColumn="6092BD03-29F7-9AC8-166B-652116786FA0"/>
+</associations>
+</Column>
+<Column name="account_num" id="9604D0B8-A045-F893-6455-09D14AEA1514">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Номер банковского счета]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>0CCC25AC-1F02-8A7B-3829-72CEDFEA641D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>541B4C7C-8303-DB44-A03D-73D604C60348</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="balance" id="BD222203-207B-FFE6-BEDB-4B8F8CEE3F9E">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Денежный баланс]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>1BB2AC87-83D0-0823-3384-8942A23C5262</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_start" id="2004BB63-8E3E-156B-8A1B-828A9276A863">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Начало обслуживания]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>C076FB94-132F-BFB9-1EA9-F831A939D5BD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<domain>D219CEF1-B0B2-EC31-6CBD-80A398D783B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_stop" id="1B9E0D7C-9425-006C-CF6F-9CBA4FA2E2F6">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Конец обслуживания]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>8E5A85DB-4134-BADF-9AB0-56FB497BC2EB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<domain>D219CEF1-B0B2-EC31-6CBD-80A398D783B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="BE3C2225-BEF6-AB83-9378-C88F3DA695C9">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Статус аккаунта(1-активен, 0-неактивен)]]></commentInRDBMS>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>143F95E1-E90E-A350-E4E7-3C654F611A6B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>66CCEDE8-DAE4-8553-FAEC-9AA75E0DA7B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="440CED62-DA50-7ABE-3C9E-C192092ED0F6" name="pk_account">
+<sourceDDLFile>internet_provider_SQL_code.ddl</sourceDDLFile>
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:58 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<importedID>C516FDD9-1A4D-E042-EA4E-0A81362B7FC3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EC7068A-55C3-9E42-6514-22C540709580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4912939E-E8BC-167F-D508-BD7EF280AA3C" name="i_account_client_id">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-27 10:31:14 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EC7068A-55C3-9E42-6514-22C540709580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCB8328B-0FB5-3ABB-3EAC-F6A13B8048E7" name="fk_account_client">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:24:59 UTC</createdTime>
+<ownerDesignName>internet_provider</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EC7068A-55C3-9E42-6514-22C540709580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

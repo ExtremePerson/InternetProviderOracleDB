@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0949D6BB-7CB8-3048-92C2-F4E8622571CF" name="kbnk account">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<generatorID>9994A9E8-366E-4026-6B85-992D40575656</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="client id" id="38CDCE89-B0C6-55A0-3F57-EC766E4C2457">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификационный номер аккаунта]]></commentInRDBMS>
+<generatorID>F6411F03-425E-5C59-02E6-7FF069EC3792</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<referedAttribute>B0ABC16C-54B9-CBFD-426B-A6AD68E1C819</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account num" id="C84A7EEA-7B84-4BAF-10E2-8DDE9138FA67">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Номер банковского счета]]></commentInRDBMS>
+<generatorID>9604D0B8-A045-F893-6455-09D14AEA1514</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>541B4C7C-8303-DB44-A03D-73D604C60348</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="balance" id="EAC211AA-7AB5-3DFA-B792-17BC6490BC10">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Денежный баланс]]></commentInRDBMS>
+<generatorID>BD222203-207B-FFE6-BEDB-4B8F8CEE3F9E</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D40F812-31E0-896F-36DB-69BAB4B03B04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt start" id="0214DC18-7448-5E03-22D0-41DED18F3F90">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Начало обслуживания]]></commentInRDBMS>
+<generatorID>2004BB63-8E3E-156B-8A1B-828A9276A863</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<domain>D219CEF1-B0B2-EC31-6CBD-80A398D783B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt stop" id="9A07E3CE-BEE1-9F3F-86E3-A3B2093A1915">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Конец обслуживания]]></commentInRDBMS>
+<generatorID>1B9E0D7C-9425-006C-CF6F-9CBA4FA2E2F6</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<domain>D219CEF1-B0B2-EC31-6CBD-80A398D783B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="8E5D9A83-CFE7-BA71-2C5A-E303CA98A939">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Статус аккаунта(1-активен, 0-неактивен)]]></commentInRDBMS>
+<generatorID>BE3C2225-BEF6-AB83-9378-C88F3DA695C9</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>66CCEDE8-DAE4-8553-FAEC-9AA75E0DA7B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="188AEE12-623C-42A2-C1F2-71B51A4B53DE" name="pk_account">
+<createdBy>Asus</createdBy>
+<createdTime>2021-10-22 14:38:25 UTC</createdTime>
+<generatorID>440CED62-DA50-7ABE-3C9E-C192092ED0F6</generatorID>
+<ownerDesignName>internet_provider</ownerDesignName>
+<engineerTo>
+<item key="AA326B3A-ADAA-6F18-65B0-B537352A0DDD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38CDCE89-B0C6-55A0-3F57-EC766E4C2457</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
